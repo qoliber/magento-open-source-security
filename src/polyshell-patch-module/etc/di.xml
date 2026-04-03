@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Created by Qoliber
+ *
+ * @author qoliber <info@qoliber.com>
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Catalog\Model\Webapi\Product\Option\Type\File\Processor">
+        <plugin name="qoliber_polyshell_block_custom_option_file_upload"
+                type="Qoliber\PolyshellPatch\Plugin\BlockCustomOptionFileUpload"/>
+    </type>
+</config>

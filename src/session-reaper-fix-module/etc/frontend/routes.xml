@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Created by Qoliber
+ *
+ * @author qoliber <info@qoliber.com>
+ */
+ -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route id="customer" frontName="customer">
+            <module name="Qoliber_SessionReaperFix" before="Magento_Customer"/>
+        </route>
+    </router>
+</config>
